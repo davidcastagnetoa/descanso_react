@@ -10,6 +10,14 @@ export default defineType({
       title: 'Asesor',
       type: 'string'
     },
+    // {
+    //   name: 'userRol',
+    //   title: 'Rol del usuario',
+    //   type: 'array',
+    //    of: [
+    //      defineArrayMember({ type: "string" })  
+  //      ]
+    // },
     {
       name: 'userid',
       title: 'Matricula',
@@ -24,7 +32,10 @@ export default defineType({
     {
       name: 'image',
       title: 'Imagen',
-      type: 'string'
+      type: 'image',
+      options: {
+        hotspot: true
+      }
     }
   ],
 })
