@@ -13,7 +13,13 @@ export default defineType({
     {
       name: 'breakStatus',
       title: 'Estado del Cono',
-      type: 'boolean'
+      type: 'boolean',
+      options: {
+        list: [
+          { title: "Libre", value: true },
+          { title: "Ocupado", value: false },
+        ]
+      }
     },
   ],
 })
