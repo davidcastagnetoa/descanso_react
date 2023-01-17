@@ -1,4 +1,4 @@
-# pinterest-copy
+# react-rest-timer-copy
 Dependencies to need
 npm i @react-oauth/google
 npm i react-google-login
